@@ -9,7 +9,10 @@ export default {
         base: '#565656',
         border: '#EFEFEF'
       },
-      fontFamily: {}
+      fontFamily: {
+        'Integral-CF': ['Integral CF', 'sans-serif'],
+        'DM-Sans': ['DM Sans', 'sans-serif']
+      }
     },
     container: {
       center: true,
