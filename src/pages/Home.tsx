@@ -3,11 +3,13 @@ import Discover from '../components/Discover'
 import Footer from '../components/Footer'
 import FreaturedSection from '../components/FreaturedSection'
 import Header from '../components/Header'
+import InfoSection from '../components/InfoSection'
 
 const Home = () => {
   return (
     <>
       <Header />
+      <InfoSection />
       <FreaturedSection />
       <CreateAndSell />
       <Discover />
