@@ -40,3 +40,7 @@
 body {
   font-family: 'DM Sans', sans-serif;
 }
+
+.card-2 img {
+  @apply w-full h-full object-cover rounded-[11px]
+}
