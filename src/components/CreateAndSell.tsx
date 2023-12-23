@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom'
+import sec1 from '../assets/images/sec1.png'
 import SeactionH2 from './SeactionH2'
 
 const CreateAndSell = () => {
   return (
     <div>
       <div className="container pt-[102px] pb-[82px]">
-        <div className="grid grid-cols-2 gap-10">
-          <div></div>
-          <div>
+        <div className="flex items-center gap-10">
+          <div className="basis-1/2">
+            <img src={sec1} alt="" />
+          </div>
+          <div className="basis-1/2">
             <div className="max-w-xs">
               <SeactionH2 text="Create and sell your NFTs" />
             </div>

@@ -4,7 +4,7 @@ import SeactionH2 from './SeactionH2'
 
 const InfoSection = () => {
   return (
-    <div style={{ background: 'rgba(217, 224, 236, 0.20)' }} className="mb-2">
+    <div style={{ background: 'rgba(217, 224, 236, 0.20)' }}>
       <div className="container pt-[125px] pb-[97px]">
         <div className="grid grid-cols-12 gap-5">
           <div className="col-span-5">

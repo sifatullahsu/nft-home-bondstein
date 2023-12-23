@@ -1,3 +1,4 @@
+import CollectionSection from '../components/CollectionSection'
 import CreateAndSell from '../components/CreateAndSell'
 import Discover from '../components/Discover'
 import Footer from '../components/Footer'
@@ -10,6 +11,7 @@ const Home = () => {
     <>
       <Header />
       <InfoSection />
+      <CollectionSection />
       <FreaturedSection />
       <CreateAndSell />
       <Discover />
